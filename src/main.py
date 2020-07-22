@@ -150,7 +150,7 @@ def val(epoch):
     else:
         logging.error('{} metric is not supported now'.format(base_config['metric']))
     if opt(metric, best_metric):
-        model_path = os.path.join(base_config['model_dir'], 'best_pt')
+        model_path = os.path.join(base_config['model_path'], 'best_pt')
         print('Saving model to {}'.format(model_path))
         state = {
             'net': model.state_dict(),
