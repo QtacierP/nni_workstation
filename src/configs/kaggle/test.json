@@ -1,0 +1,15 @@
+{
+        "dataset": "kaggle",
+        "loss": "ce",
+        "mean":[0.4261,0.2975, 0.2131],
+        "std": [0.2766, 0.2028, 0.1688],
+        "size": 512,
+        "gpu": "0,1,2,3",
+        "per_gpu": 1,
+        "batch_size": 8,
+        "n_threads": 64,
+        "model_path": "../model/kaggle",
+        "epoch": 200,
+        "n_classes": 5,
+        "metric": "kappa"
+}
